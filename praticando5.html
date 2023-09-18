@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Tabela Grande</title>
+
+        <Style>
+            
+            body{
+
+                background-color: lightblue
+              
+            }
+
+            table, th, td{
+
+                border: 1px solid red;
+
+            }
+
+            #table{
+                
+                background-color: white;
+            }
+
+            .td{
+
+            padding: 30px 60px;
+            text-align: center;
+
+            }
+
+            #azul{
+                background-color: blue;
+            }
+
+            #vermelho{
+                background-color: red;
+            }
+
+            #amarelo{
+                background-color: yellow;
+            }
+
+            #verde{
+                background-color: green;
+            }
+
+        </Style>
+
+    </head>
+
+    <body>
+        
+        <h1>Praticando 5 - Tabela com colspan e rowspan e planos de fundo</h1>
+        
+        <a href="index.html"> Voltar ao Menu Principal</a>
+        <br> <br> <br>
+
+        <table>
+            <caption>tabela grande com colspan e rowspan</caption>
+
+            <tr>
+                <td colspan="2" id="verde" class="td"> colspan </td> <td id="verde" class="td">-</td> <td rowspan="3" id="verde" class="td">rowspan</td>
+            </tr>
+
+            <tr>
+                <td id="vermelho" class="td">-</td> <td id="vermelho" class="td">-</td> <td id="vermelho" class="td">-</td>
+            </tr>
+
+            <tr>
+                <td id="azul" class="td">-</td> <td colspan="2" id="azul" class="td">colspan</td>
+            </tr>
+
+            <tr>
+                <td id="amarelo" class="td">-</td> <td id="amarelo" class="td">-</td> <td id="amarelo" class="td">-</td> <td id="amarelo" class="td">-</td>
+            </tr>
+
+        </table>
+
+        <br> <br> <br>
+
+        <table id="table">
+            <caption>Legenda</caption>
+
+            <tr>
+                <td> linha 1 </td> <td id="verde"> --------</td> <td> green</td>
+        
+            </tr>
+    
+            <tr>
+                <td> linha 2 </td> <td id="vermelho"> --------</td> <td> red</td>
+                
+            </tr>
+
+            <tr>
+                <td> linha 3 </td> <td id="azul"> --------</td> <td> blue</td>
+                
+            </tr>
+
+            <tr>
+                <td> linha 4 </td> <td id="amarelo"> --------</td> <td> yellow</td>
+           
+            </tr>
+        </table>
+
+    </body>
+
+
+
+</html>
